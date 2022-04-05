@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A Frontend Mentor Challenge">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | FAQ Accordion Card</title>
+
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <script src="index.js" defer></script>
+
+</head>
+<body>
+  <main class="FAQ-card">
+    <img class="FAQ-card__illustration-mobile" src="./images/illustration-woman-online-mobile.svg" alt="">
+    <img class="FAQ-card__illustration-desktop" src="./images/illustration-woman-online-desktop.svg" alt="">
+    <img class="FAQ-card__illustration-box" src="./images/illustration-box-desktop.svg" alt="">
+
+    <h1 class="FAQ-card__heading">FAQ</h1>
+
+    <div class="FAQ-card__accordion">
+
+      <div class="FAQ-card__accordion__section">
+        <div class="FAQ-card__accordion__question" data-visible="false">
+          How many team members can I invite?
+        </div>
+        <div class="FAQ-card__accordion__answer" data-visible="false">
+          You can invite up to 2 additional users on the Free plan. There is no limit on    team members for the Premium plan.
+        </div>
+      </div>
+
+      <div class="FAQ-card__accordion__section">
+        <div class="FAQ-card__accordion__question" data-visible="false">
+          What is the maximum file upload size?
+        </div>
+        <div class="FAQ-card__accordion__answer" data-visible="false">
+          No more than 2GB. All files in your account must fit your allotted storage space.
+        </div>
+      </div>
+
+      <div class="FAQ-card__accordion__section">
+        <div class="FAQ-card__accordion__question" data-visible="false">
+          How do I reset my password?
+        </div>
+        <div class="FAQ-card__accordion__answer" data-visible="false">
+          Click “Forgot password” from the login page or “Change password” from your profile page. A reset link will be emailed to you.
+        </div>
+      </div>
+
+      <div class="FAQ-card__accordion__section">
+        <div class="FAQ-card__accordion__question" data-visible="false">
+          Can I cancel my subscription?
+        </div>
+        <div class="FAQ-card__accordion__answer" data-visible="false">
+          Yes! Send us a message and we’ll process your request no questions asked.
+        </div>
+      </div>
+
+      <div class="FAQ-card__accordion__section">
+        <div class="FAQ-card__accordion__question" data-visible="false">
+          Do you provide additional support?
+        </div>
+        <div class="FAQ-card__accordion__answer" data-visible="false">
+          Chat and email support is available 24/7. Phone lines are open during normal business hours.
+        </div>
+      </div>
+    
+    </div>
+
+  </main>
+
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.frontendmentor.io/profile/PavlinaPs">Pavlina Psarsky</a>.
+  </footer>
+
+</body>
+</html>
