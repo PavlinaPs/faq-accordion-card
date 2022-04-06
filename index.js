@@ -1,5 +1,4 @@
 const questions = document.querySelectorAll(".FAQ-card__accordion__question");
-const answers = document.querySelectorAll(".FAQ-card__accordion__answer");
 
 // ***only one answer open at a time***
 
